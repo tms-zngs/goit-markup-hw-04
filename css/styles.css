@@ -351,7 +351,7 @@ img {
 
 .social-icons-link:hover,
 .social-icons-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 /* #endregion team section */
 
@@ -478,6 +478,10 @@ img {
 
 .social-icons-container.footer-icons-container {
 }
+
+.footer-icons-list {
+  gap: 16px;
+}
 .footer-social-text {
   font-weight: 500;
   font-size: 16px;
@@ -485,5 +489,10 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+  background-color: #31d0aa;
 }
 /* #endregion footer */
