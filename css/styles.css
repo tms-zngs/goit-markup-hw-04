@@ -300,7 +300,7 @@ img {
 }
 
 .team-text-container {
-  padding: 32px 0 0 0;
+  padding: 32px 0;
 }
 
 .team-name {
@@ -320,21 +320,21 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  padding-bottom: 8px;
 }
 
-.social-icons-container.team-icons-container {
-  padding: 32px 0;
-}
 .social-icons-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
 }
+
 .social-icons-item {
   width: 40px;
   height: 40px;
 }
+
 .social-icons-link {
   display: flex;
   justify-content: center;
