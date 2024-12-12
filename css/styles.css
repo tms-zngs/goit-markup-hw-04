@@ -95,7 +95,6 @@ img {
 
 .nav-link.current {
   position: relative;
-  color: #404bbf;
 }
 
 .nav-link.current::after {
@@ -115,7 +114,8 @@ img {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:focus,
+.nav-link.current {
   color: #404bbf;
 }
 
@@ -494,8 +494,8 @@ img {
   margin-bottom: 16px;
 }
 
-.footer-icon-link:hover,
-.footer-icon-link:focus {
+.social-icons-link.footer-icon-link:hover,
+.social-icons-link.footer-icon-link:focus {
   background-color: #31d0aa;
 }
 /* #endregion footer */
